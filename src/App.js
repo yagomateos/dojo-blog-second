@@ -1,7 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import Navbar from "./Navbar";
+// eslint-disable-next-line no-unused-vars
 import Home from "./Home";
 
-function App () {
+function App() {
   return (
     <div className="App">
       <Navbar />

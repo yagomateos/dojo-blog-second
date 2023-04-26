@@ -8,10 +8,11 @@ module.exports = {
     "standard", /* Reglas del paquete eslint-config-standard */
     "prettier",
     "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
   ],
   parserOptions: {
     ecmaVersion: 12, /* Establece la versión de ECMAScript que se usará */
-    sourceType: "script", /* Indica si se usan módulos ESM o solo scripts */
+    sourceType: "module", /* Indica si se usan módulos ESM o solo scripts */
   },
   rules: {
     indent: ["error", 2],
