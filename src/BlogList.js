@@ -1,4 +1,4 @@
-const BlogList = ({ blogs, title}) => {
+const BlogList = ({ blogs, title }) => {
   // const blogs = props.blogs;
   // const title = props.title;
   // console.log(blogs);
@@ -14,6 +14,6 @@ const BlogList = ({ blogs, title}) => {
       ))}
     </div>
   );
-}
- 
+};
+
 export default BlogList;
