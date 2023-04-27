@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1 style={{
-          color: '#f1356d'
-        }}>
-      <Link to="/">The Dojo Blog</Link></h1>
+      <Link to="/" style={{ color: '#f1356d' }}>
+        <h1>The Dojo Blog</h1>
+      </Link>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/create"> {/* style={{
